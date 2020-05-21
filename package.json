@@ -4,7 +4,8 @@
   "description": "This is a project for cypress test",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "node_modules/.bin/cypress open"
+    "cypress:open": "node_modules/.bin/cypress open",
+    "weiboSignUpTest": "cypress run --spec cypress/integration/examples/weiboSignUpTest.spec.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/qycai/firstCypressProject#readme",
   "devDependencies": {
+    "@applitools/eyes-cypress": "^3.9.13",
     "cypress": "^4.0.1"
   }
 }
