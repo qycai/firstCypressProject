@@ -19,6 +19,6 @@
   "homepage": "https://github.com/qycai/firstCypressProject#readme",
   "devDependencies": {
     "@applitools/eyes-cypress": "^3.9.13",
-    "cypress": "^4.0.1"
+    "cypress": "^4.6.0"
   }
 }
